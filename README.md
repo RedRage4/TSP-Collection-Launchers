@@ -7,5 +7,5 @@ You may place these launch scripts and config files in the main directory for yo
 
 If you use shortcuts you may place the shortcuts directly into the main Roms folder, or you may place them in subfolders with any names you choose. This opens up lots of possibilities for sorting into different categories or just styling the collection as you please.
 
-#Credit
+# Credit
 Both `launch.sh` scripts and the `config.json` were adapted from the CrossMix-OS versions [launch.sh](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/launch.sh) [config.json](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/config.json)
