@@ -1,5 +1,5 @@
 # TSP-Collection-Launch Scripts
-A few `aunch.sh` scripts for creating custom collections on the TrimUI Smart Pro
+A few `launch.sh` scripts for creating custom collections on the TrimUI Smart Pro
 
 # Instructions
 You may place these launch scripts and config files in the main directory for your collections. I have included a version for the base OS as well as a separate version for CrossMix-OS. They allow CrossMix-OS style ["shortcuts"](https://github.com/cizia64/CrossMix-OS/wiki/Advanced-Guides#trimui-best-collection) to roms in the official Roms folder without having to sort each of your `.txt`s into folders with the specific System key (see the explanation of how to create collections for CrossMix-OS linked above for a clearer example).
