@@ -1,11 +1,13 @@
 # TSP-Collection-Launch Scripts
-A few `launch.sh` scripts for creating custom collections on the TrimUI Smart Pro
+Create custom collections any way you want on your Trimui Smart Pro! Simply use one of the templates provided here (or copy the corresponding `launch.sh` script into your folder) and organize your games any way you'd like.
+
+# What Is It?
+The awesome team developing [CrossMix-OS](https://github.com/cizia64/CrossMix-OS/tree/main) came up with a really cool feature for the "Best" tab of the Trimui Smart Pro. You can use ["shortcuts"](https://github.com/cizia64/CrossMix-OS/wiki/Advanced-Guides#trimui-best-collection) that link to roms in the official Roms folder without the need to have multiple copies of the rom on your SD card, and without needing to extract them or format the roms with a certain extension. However, this comes with the limitation that you must place these shortcuts into folders named for the system they belong to (e.g. "SFC" or "PS"). These folders are visible to the user and make organizing your collection impossible.\
+I made some small tweaks to their `launch.sh` script to make these shortcuts usuable on the base OS, while also eliminating the need to put these shortcuts into specific folders within your collection. This opens up lots of possibilities for organizing and styling the collection as you please.
 
 # Instructions
-You may place these launch scripts and config files in the main directory for your collections. I have included a version for the base OS as well as a separate version for CrossMix-OS. They allow CrossMix-OS style ["shortcuts"](https://github.com/cizia64/CrossMix-OS/wiki/Advanced-Guides#trimui-best-collection) to roms in the official Roms folder without having to sort each of your `.txt`s into folders with the specific System key (see the explanation of how to create collections for CrossMix-OS linked above for a clearer example).\
-<ins>**NOTE:** If you place the roms directly into the Roms folder of your collection, you must still place them into the appropriately-named folder corresponder to the emulator core that should be used to run the rom.</ins>
-
-If you use shortcuts you may place the shortcuts directly into the main Roms folder, or you may place them in subfolders with any names you choose. This opens up lots of possibilities for sorting into different categories or just styling the collection as you please.
+The folders here are templates for how your collection should be structured on your SD card. If you already have a collection set up, you may simply copy the `launch.sh` and `config.json` files into your collection folder to get the benefits described here. In the "Roms" folder of either template you will see an example of how to create your own shortcuts: make a simple `.txt` file that contains the path to the rom. The name of the file (minus the extension) is what the user will see. You may place the shortcut directly into the main Roms folder of your collection, or you may place it in a subfolder with any name you choose. Make sure that the corresponding image (placed directly in the "Imgs" folder of the collection) has the exact same name as your shortcut, and you're done!
+<ins>**NOTE:** If you do not use shortcuts, you must still place the roms into folders with names corresponding to the emulator core that should be used to run the rom.</ins>
 
 # Credit
-Both `launch.sh` scripts and the `config.json` were adapted from the CrossMix-OS versions [launch.sh](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/launch.sh) [config.json](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/config.json)
+Both [launch.sh](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/launch.sh) scripts and the [config.json](https://github.com/cizia64/CrossMix-OS/blob/main/Best/Free%20Games%20Collection/config.json) were adapted from the CrossMix-OS versions.
